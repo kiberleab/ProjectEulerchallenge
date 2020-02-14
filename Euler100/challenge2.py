@@ -1,3 +1,7 @@
+# Even Fibonacci numbers
+
+# Find the sum of the even-valued terms.
+
 def fiboEvenSum(num):
   f = [1,2]
   while f[-1] < num:
