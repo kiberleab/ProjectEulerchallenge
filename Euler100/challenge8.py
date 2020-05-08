@@ -11,8 +11,8 @@ from functools import reduce
 
 def list_generator_function(thousandDigits, n):
 	i = 0
-	while i < len(nums):
-		yield nums[i:n]
+	while i < len(thousandDigits):
+		yield thousandDigits[i:n]
 		i = i + 1
 		n = n + 1
 
